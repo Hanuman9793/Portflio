@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Hanuman<span>Yadav</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="button">
+            <a href="https://api.whatsapp.com/send/?phone=919793229288&text&type=phone_number&app_absent=0"
+                target="_blank">
+                <button class="H-btn">Contact Me</button>
+            </a>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+
+    <div class="home">
+        <div class="image">
+            <img src="/Portfolio.jpg" alt="" />
+        </div>
+
+        <div class="button">
+            <h1>I'm Hanuman <span>Yadav</span></h1>
+            <h2 class="loop">Frontend Developer</h2>
+            <p>I am a first Year CSE student at LPU. I love doing and hitting the gym.I have a interest in frontend
+                Development and little bit backend </p>
+            <a href="https://api.whatsapp.com/send/?phone=9197933229288&text&type=phone_number&app_absent=0"
+                target="_blank"><button class="btn">Contact Me</button></a>
+            <a href="/Resume.html" download="resume">
+                <button class="btn" id="H-btn">My Resume</button>
+            </a>
+            <div class="social-media">
+                <li><a href="https://www.facebook.com/profile.php?id=61566966490422" target="_blank"><i
+                            class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://github.com/Hanuman9793" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/hanuman_yadav9793/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/hanuman-yadav-b3588431b" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a></li>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- About Section -->
+
+    <div class="about" id="about">
+        <div class="about-content">
+            <h3>About Me</h3>
+            <h1>Hanuman</span>Yadav</h1>
+            <h2>Full Stack Developer</h2>
+            <p>Hello, I'm Hanuman Yadav, a passionate full-stack developer with a strong foundation in front-end
+                technologies. I have hands-on experience working with HTML, CSS, JavaScript, and React.js, which allows
+                me to create visually appealing and highly functional web applications. My expertise in front-end
+                development includes building responsive designs and interactive user interfaces that provide a seamless
+                user experience.
+
+                Currently, I'm expanding my skill set by diving into backend technologies to become a well-rounded
+                developer. My goal is to develop full-stack applications that are not only aesthetically pleasing but
+                also robust, scalable, and secure on the server side. I'm excited to learn more about databases, server
+                management, and backend frameworks to complement my front-end expertise.</p>
+            <!-- <div class="button">
+            <button class="A-btn">Read More.</button>
+        </div> -->
+        </div>
+        <div class="image">
+
+        </div>
+    </div>
+
+
+    <!-- Service Section -->
+
+    <div class="service" id="service">
+        <h1>Service</h1>
+        <div class="main-card">
+            <div class="card">
+                <li><i class="fa-solid fa-code"></i></li>
+                <h2>Full Stack developer</h2>
+                <p>Full-stack development services provide end-to-end web solutions and handling both front-end (HTML,
+                    CSS and JavaScript) and back-end (databases, server-side logic and APIs) development. And more
+                    about to come </p>
+                <div class="button">
+                    <button class="S-btn">Read More.</button>
+                </div>
+            </div>
+            <div class="card">
+                <li><i class="fa-solid fa-code"></i></li>
+                <h2>WordPress developer</h2>
+                <p>WordPress development services focus on creating customized websites using the WordPress platform.
+                    These services include theme design, plugin development, and website optimization for speed and SEO.
+                </p>
+                <div class="button">
+                    <button class="S-btn">Read More.</button>
+                </div>
+            </div>
+            <div class="card">
+                <li><i class="fa-solid fa-code"></i></li>
+                <h2>Graphic Designer</h2>
+                <p>Graphic design services specialize in creating visually engaging content, including logos, marketing
+                    materials, and web graphics. These services focus on delivering creative solutions that enhance
+                    brand identity.</p>
+                <div class="button">
+                    <button class="S-btn">Read More.</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <div class="main">
+            <div class="left">
+                <form action="https://formspree.io/f/xbljgdeq" method="POST">
+                    <div class="form-control">
+                        <input type="text" class="Hanuman" placeholder="User-Name" name="name" required />
+                    </div>
+                    <div class="form-control">
+                        <input type="number" class="hanuman" placeholder="Phone-Number" name="phoneno" required />
+                    </div>
+                    <div class="form-control">
+                        <textarea placeholder="Write Massage" class="text" name="message"></textarea>
+                    </div>
+                        <button class="btn">Send Massage</button>
+                </form>
+            </div>
+            <div class="right">
+                <h3>Get in Touch!</h3>
+                <p>If you have any questions or feedback, feel free to reach out to us!</p>
+                <h4>Follow Us:</h4>
+                <div class="social-media">
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=61566966490422" target="_blank"><i
+                                    class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://github.com/Hanuman9793" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.instagram.com/hanuman_yadav9793/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/hanuman-yadav-b3588431b" target="_blank"><i
+                                    class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="social-media">
+            <li><a href="https://www.facebook.com/profile.php?id=61566966490422" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="https://github.com/Hanuman9793" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/hanuman_yadav9793/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/hanuman-yadav-b3588431b" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a></li>
+        </div>
+        <h3>Copyright@2024 Hanuman Yadav All Right Reseved </h3>
+    </div>
+
+</body>
+
+</html>
